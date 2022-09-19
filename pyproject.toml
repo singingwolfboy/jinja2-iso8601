@@ -7,10 +7,17 @@ name = "jinja2_iso8601"
 authors = [{name = "David Baumgold", email = "david@davidbaumgold.com"}]
 readme = "README.md"
 dynamic = ["version", "description"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Text Processing :: Filters",
+]
 dependencies = ["Jinja2 >=3.1", "iso8601 >=1.0"]
 
 [project.optional-dependencies]
 test = ["pytest >=7.1"]
+
+[project.urls]
+Source = "https://github.com/singingwolfboy/jinja2-iso8601/"
 
 [tool.isort]
 profile = "black"
