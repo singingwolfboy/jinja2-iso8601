@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "jinja2_iso8601"
+authors = [{name = "David Baumgold", email = "david@davidbaumgold.com"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = ["Jinja2 >=3.1", "iso8601 >=1.0"]
+
+[project.optional-dependencies]
+test = ["pytest >=7.1"]
+
+[tool.isort]
+profile = "black"
