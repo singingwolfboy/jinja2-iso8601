@@ -32,6 +32,7 @@ You can now use two new filters when writing your Jinja templates:
 this works well with `datetime`, `date`, and `time` objects. You'll need to
 provide a format string for the `format_date` filter;
 [check the Python documentation for how to write a format string](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes).
+You can also check [the cheatsheet at strftime.org](https://strftime.org).
 
 For example, let's say you have a variable called `datestr` which is
 a string representing a datetime in valid ISO-8601 format, such as
